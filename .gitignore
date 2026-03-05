@@ -1,0 +1,42 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+
+# R renv
+renv/library/
+renv/staging/
+# keep renv.lock tracked
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Julia
+*.jl.cov
+*.jl.mem
+*.jl.*.cov
+*.jl.*.mem
+Manifest.toml.backup
+
+#Git 
+*.aux
+*.log
+*.out
+*.gz
+# Output / generated files
+output/
+figures/
+plots/
